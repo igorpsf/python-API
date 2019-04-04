@@ -1,6 +1,9 @@
 import requests
-import json
 import pprint
+try:
+    import json
+except ImportError:
+    print("No json module")
 
 # GET /users/:username
 
