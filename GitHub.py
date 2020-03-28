@@ -18,8 +18,8 @@ print(r.text)
 
 pprint.pprint(r.json())
 r = r.json()
-print(r["created_at"])
-print(r["location"])
+#print(r["created_at"])
+#print(r["location"])
 # json
 ''' 
 
